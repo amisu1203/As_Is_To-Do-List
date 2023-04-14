@@ -16,7 +16,7 @@ function TodoItem({ todoItem, onRemove, getDone }) {
 
   return (
     <article className="TodoItem box-same1">
-      <h3>{todoItem.title}</h3>
+      <h2>{todoItem.title}</h2>
       <p>{todoItem.content}</p>
       <div className="con-btns">
         <button className="btn-delete btn-original" onClick={handleRemove}>
