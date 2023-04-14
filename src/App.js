@@ -21,7 +21,7 @@ function App() {
       id: parseInt(todoId.current),
     };
     todoId.current += 1;
-    setData([...data, newTodo]);
+    setData([newTodo, ...data]);
   };
 
   // todo 삭제
