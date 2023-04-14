@@ -97,6 +97,14 @@
   justify-content: center;
 }
 
+.TodoItem h2 {
+  margin: 20px 0 0;
+  font-size: 24px;
+}
+.TodoItem p {
+  margin-bottom: 20px;
+}
+
 .TodoItem .con-btns {
   margin-bottom: 20px;
   display: flex;
@@ -122,6 +130,11 @@
 }
 
 /* DoneItem */
+.DoneItem h2 {
+  margin: 20px 0 0;
+  font-size: 24px;
+}
+
 .DoneItem .con-btns {
   margin-bottom: 20px;
   display: flex;
