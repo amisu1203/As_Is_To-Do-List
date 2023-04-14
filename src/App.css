@@ -1,0 +1,134 @@
+/* setting */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+/* theme color */
+/* color : #00C89B;  */
+/* color : #C7FCEC;  */
+
+/* button */
+.btn-original {
+  border: none;
+  border-radius: 10px;
+  line-height: 30px;
+  padding: 0 30px;
+  font-size: 17px;
+  background-color: rgb(255, 255, 255);
+  transition: all 0.2s ease-in;
+}
+
+.btn-original:hover {
+  scale: 1.1;
+}
+
+/* box-todo */
+.box-same1 {
+  border-radius: 10px;
+  background-color: #d9e4f5;
+  background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* App */
+.App {
+  max-width: 1200px;
+  max-height: 800px;
+  margin: 0 auto;
+}
+.App h1 {
+  padding: 15px 50px;
+  font-size: 30px;
+}
+
+/* CreateToDo */
+.CreateToDo {
+  background-color: orange;
+}
+
+.CreateToDo .con-inp {
+  background: rgb(226, 205, 205);
+  height: 130px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  position: relative;
+  font-size: 20px;
+  font-weight: 700;
+  box-sizing: border-box;
+  padding: 0 50px;
+}
+
+.CreateToDo .con-inp input {
+  border: none;
+  border-radius: 10px;
+  line-height: 30px;
+  margin: 0 20px;
+  padding: 0 10px;
+}
+
+.CreateToDo .btn-add {
+  transition: all 0.2s ease-in;
+  position: absolute;
+  right: 80px;
+}
+
+/* working */
+.Working h2 {
+  margin-left: 50px;
+  font-size: 26px;
+}
+
+/* TodoList */
+.TodoList {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  justify-content: space-around;
+  gap: 40px 0;
+}
+
+/* TodoItem */
+.TodoItem {
+  /* border: 1px solid gray; */
+  border-radius: 10px;
+  background-color: #d9e4f5;
+  background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.TodoItem .con-btns {
+  margin-bottom: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+/* Done */
+.Done h3 {
+  margin-left: 50px;
+  font-size: 26px;
+}
+
+/* DoneList  */
+.DoneList {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  justify-content: space-around;
+  gap: 40px 0;
+}
+
+/* DoneItem */
+.DoneItem .btn-delete {
+  margin-bottom: 20px;
+}
