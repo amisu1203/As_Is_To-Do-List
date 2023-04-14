@@ -40,16 +40,26 @@ function App() {
     });
     setData(newData);
   };
+  // todo 되돌리기
+  const turnBack = (id) => {
+    const newData = data.map((todo) => {
+      if (todo.id === id) {
+        return { ...todo, isDone: false };
+      }
+      return todo;
+    });
+    setData(newData);
+  };
 
   return (
     <div className="App">
       <h1>MY TO-DO</h1>
       <CreateToDo onCreate={onCreate} />
       <Working>
-        <TodoList todoList={data} onRemove={onRemove} getDone={getDone} />
+        <TodoList todoList={data.filter((todo) => !todo.isDone)} onRemove={onRemove} getDone={getDone} />
       </Working>
       <Done>
-        <DoneList doneList={data} onRemove={onRemove} />
+        <DoneList doneList={data.filter((todo) => todo.isDone)} turnBack={turnBack} />
       </Done>
     </div>
   );

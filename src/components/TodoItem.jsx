@@ -19,7 +19,7 @@ function TodoItem({ todoItem, onRemove, getDone }) {
       <h3>{todoItem.title}</h3>
       <p>{todoItem.content}</p>
       <div className="con-btns">
-        <button className="btn-original" onClick={handleRemove}>
+        <button className="btn-delete btn-original" onClick={handleRemove}>
           삭제
         </button>
         <button className="btn-original" onClick={handleDone}>

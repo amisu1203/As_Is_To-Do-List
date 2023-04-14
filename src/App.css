@@ -1,14 +1,3 @@
-/* setting */
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: block;
-}
-
-/* theme color */
-/* color : #00C89B;  */
-/* color : #C7FCEC;  */
-
 /* button */
 .btn-original {
   border: none;
@@ -22,6 +11,10 @@
 
 .btn-original:hover {
   scale: 1.1;
+}
+
+.btn-delete {
+  background-color: rgb(255, 165, 165);
 }
 
 /* box-todo */
@@ -48,9 +41,6 @@
 }
 
 /* CreateToDo */
-.CreateToDo {
-  background-color: orange;
-}
 
 .CreateToDo .con-inp {
   background: rgb(226, 205, 205);
@@ -132,6 +122,9 @@
 }
 
 /* DoneItem */
-.DoneItem .btn-delete {
+.DoneItem .con-btns {
   margin-bottom: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
 }
