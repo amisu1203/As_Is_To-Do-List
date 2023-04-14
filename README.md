@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+# 📌 To-Do List Project
+이 프로젝트는 사용자의 일정 관리를 위해 만들어진 To-Do list 프로젝트입니다. 사용자는 해야 할 일의 제목과 내용을 작성하고 추가하기 버튼을 누릅니다. `WORKING ZONE`에 새로운 할 일을 추가되며 가장 최신의 추가 일정이 상단으로 올라갑니다. 사용자는 할 일을 완료하면 완료 버튼을 눌러 `DONE ZONE`으로 할 일을 이동시킬 수 있습니다.  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![투두 움짤](https://user-images.githubusercontent.com/93499095/232104960-404c6672-9072-4094-963f-65fe7305dc22.gif)
 
-## Available Scripts
 
-In the project directory, you can run:
+## 👀 기능 소개
+1. 할 일의 제목과 내용을 작성하여 `추가하기` 버튼을 누르면 'WORKING ZONE'으로 할 일이 추가됩니다.
+2. 할 일을 완료하여 `완료` 버튼을 누르면 'DONE ZONE'으로 할 일이 이동합니다.
+3. 실수로 `완료` 버튼을 눌렀을 경우, 'DONE ZONE'에서 `취소` 버튼을 누르면 다시 'WORKING ZONE'으로 할 일이 추가됩니다.
+4. 'DONE ZONE'과 'WORKING ZONE' 모두 `삭제` 버튼을 누르면 모든 ZONE에서 할 일이 사라집니다.
 
-### `npm start`
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📘 컴포넌트 소개
+... 수정중 ....
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+<br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 사용 방법
+1. `$ npm install` : pakage.json의 패키지들을 일괄 설치해주세요.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+2. `$ npm start` : app을 실행 시켜주시고, [http://localhost:3000](http://localhost:3000)에 접속하여 사용해주세요.
