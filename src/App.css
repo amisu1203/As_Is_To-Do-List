@@ -115,6 +115,9 @@
 }
 
 /* Done */
+.Done {
+  padding-bottom: 100px;
+}
 .Done h3 {
   margin-left: 50px;
   font-size: 26px;

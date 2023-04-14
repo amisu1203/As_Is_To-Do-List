@@ -8,7 +8,7 @@ const DoneItem = ({ todoItem, onRemove }) => {
   };
 
   return (
-    <article className="box-same1">
+    <article className="DoneItem box-same1">
       <h4>{todoItem.title}</h4>
       <p>{todoItem.content}</p>
       <div>

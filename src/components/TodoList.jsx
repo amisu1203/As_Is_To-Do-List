@@ -2,7 +2,6 @@ import React from "react";
 import TodoItem from "./TodoItem";
 
 function TodoList({ todoList, onRemove, getDone }) {
-  console.log(todoList);
   return (
     <div className="TodoList">
       {/* todo item 하나하나 보여주기 -> map */}
