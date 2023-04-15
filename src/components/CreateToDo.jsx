@@ -19,9 +19,8 @@ const CreateToDo = ({ onCreate }) => {
       titleInput.current.focus();
       return;
     }
-    if (todos.content.length < 5) {
+    if (todos.content.length < 3) {
       contentInput.current.focus();
-      setTodos({ title: "", content: "" });
       return;
     }
     onCreate(todos);
