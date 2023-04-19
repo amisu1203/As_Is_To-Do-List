@@ -19,7 +19,7 @@ const CreateToDo = ({ onCreate }) => {
       titleInput.current.focus();
       return;
     }
-    if (todos.content.length < 3) {
+    if (todos.content.length < 2) {
       contentInput.current.focus();
       return;
     }
