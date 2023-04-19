@@ -59,7 +59,7 @@ function App() {
         <TodoList todoList={data.filter((todo) => !todo.isDone)} onRemove={onRemove} getDone={getDone} />
       </Working>
       <Done>
-        <DoneList doneList={data.filter((todo) => todo.isDone)} turnBack={turnBack} />
+        <DoneList doneList={data.filter((todo) => todo.isDone)} onRemove={onRemove} turnBack={turnBack} />
       </Done>
     </div>
   );
